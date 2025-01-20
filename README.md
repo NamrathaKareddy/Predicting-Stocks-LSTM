@@ -1,5 +1,5 @@
 # Efficient  and  Effective  Methods  for  Predicting Stock Market Prices
-Adrianna Liu, Stanley Wu, Patrick Yoon. The paper detailing our experiments and results can be found within the "paper" folder, or <a href="/paper/AI_Paper.pdf" class="image fit">here</a> for quick access. **IMPORTANT NOTE:** for the blue links in the paper to work, you must download the paper from GitHub (aka. you can't just view it).
+The paper detailing our experiments and results can be found within the "paper". 
 
 ## Requirements
 To install and make sure you have all requirements necessary to run our code, you can run `pip install -r requirements.txt` from the root directory to verify necessary packages and install missing ones.
@@ -16,6 +16,3 @@ After opening “Decision Tree.ipynb", you can proceedto run every cell in order
 
 ### LSTM
 Similar to the Decision Tree, you can proceed to runevery cell in order in “LSTM.ipynb", however since LSTM training does not take as long as Decision Tree, there is no need to skip over any blocks. Also unlike the decision tree algorithm, LSTM does incur some randomness in training. This means the results maynot be identical to the ones presented, however theyshould remain relatively similar.
-
-### HMM
-As with the Decision Tree and the LSTM, you can also run every cell in order in “HMM.ipynb", but closing_and_middle_price_in_range will take some time to run. Like the Decision Tree, you should be able to get the same results as there is no randomness in fitting the model. Thus, if you use the same training set, the data should have the same result.
